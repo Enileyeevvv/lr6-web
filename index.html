@@ -25,12 +25,10 @@
                 Главы статьи
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Составляющие систем, основанных на HTTP</a>
-                <a class="dropdown-item" href="#">Основные аспекты HTTP</a>
-                <a class="dropdown-item" href="#">Чем можно управлять через HTTP</a>
-                <a class="dropdown-item" href="#">HTTP поток</a>
-                <a class="dropdown-item" href="#">HTTP сообщения</a>
-                <a class="dropdown-item" href="#">Вывод</a>
+                <a class="dropdown-item" href="#1">Составляющие систем, основанных на HTTP</a>
+                <a class="dropdown-item" href="#2">Основные аспекты HTTP</a>
+                <a class="dropdown-item" href="#3">Чем можно управлять через HTTP</a>
+                <a class="dropdown-item" href="#4">Вывод</a>
               </div>
             </div>
         </li>
@@ -96,7 +94,7 @@
       </figure>
     </div>  
   </section>
-  <section class="col-md-10 m-auto">
+  <section class="col-md-10 m-auto" id="1">
     <h1>Составляющие систем, основанных на HTTP</h1>
     <div class="d-flex flex-column flex-md-row justify-content-between">
       <p class="pt-2 col-md-5">HTTP — это клиент-серверный протокол, то есть запросы отправляются какой-то одной стороной — участником обмена (user-agent) (либо прокси вместо него). Чаще всего в качестве участника выступает веб-браузер, но им может быть кто угодно, например, робот, путешествующий по Сети для пополнения и обновления данных индексации веб-страниц для поисковых систем.</p>
@@ -109,7 +107,7 @@
       </figcaption>
     </figure>
   </section>
-  <section class="col-md-10 m-auto">
+  <section class="col-md-10 m-auto" id="2">
       <h1>Основные аспекты HTTP</h1>
     <div class="d-flex m-auto justify-content-between flex-column flex-md-row flex-wrap">
       <div class="col-xl-6">
@@ -133,7 +131,7 @@
       </div>    
     </div>  
   </section>
-  <section class="col-md-10 m-auto">
+  <section class="col-md-10 m-auto" id="3">
     <h1>Чем можно управлять через HTTP</h1>
     <p>Естественная расширяемость HTTP со временем позволила большее управление и функциональность Сети. Кэш и методы аутентификации были ранними функциями в истории HTTP. Способность ослабить первоначальные ограничения, напротив, была добавлена в 2010-е.</p>
     <h3>Ниже перечислены общие функции, управляемые с HTTP.</h3>
@@ -172,7 +170,7 @@
       </tbody>
     </table>
   </section>
-  <section class="col-md-10 m-auto">
+  <section class="col-md-10 m-auto" id="4">
     <h1>Вывод</h1>
     <p>HTTP -- легкий в использовании расширяемый протокол. Структура клиент-сервера, вместе со способностью к простому добавлению заголовков, позволяет HTTP продвигаться вместе с расширяющимися возможностями Сети.</p>
     <p>Хотя HTTP/2 добавляет некоторую сложность, встраивая HTTP сообщения во фреймы для улучшения производительности, базовая структура сообщений осталась с HTTP/1.0. Сессионый поток остается простым, позволяя исследовать и отлаживать с простым монитором HTTP-сообщений.</p>
@@ -205,7 +203,7 @@
 
   <section class="col-md-10 m-auto">
     <h1>Похожее</h1>
-    <div id="carouselExampleCaptions" class="carousel slide col-6 m-auto" data-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide col-md-6 m-auto" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
